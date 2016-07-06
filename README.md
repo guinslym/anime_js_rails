@@ -50,7 +50,7 @@ Rails.application.config.assets.precompile += [/.*\.js/,/.*\.css/]
 
 ## Contributing
 
-1. star it
+1. Star it
 2. Fork it ( https://github.com/guinslym/anime_js_rails )
 3. Create your feature branch (`git checkout -b my-new-feature`)
 4. Commit your changes (`git commit -am 'Add some feature'`)
