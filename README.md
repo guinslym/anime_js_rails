@@ -36,9 +36,17 @@ Or install it yourself as:
 
     $ gem install anime_js_rails
 
-## Usage
 
-TODO: Write usage instructions here
+### Configuration (already in this folder)
+```ruby
+#app/assets/javascript/application.js
+//= require anime
+#config/initializers/assets.rb
+Rails.application.config.assets.precompile += %w( anime.js )
+#or
+Rails.application.config.assets.precompile += [/.*\.js/,/.*\.css/]
+```
+
 
 ## Contributing
 
