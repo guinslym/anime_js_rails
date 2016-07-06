@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{Makes it simple to include the anime.js library (by Guinsly Mondesir) in the Rails asset pipeline.}
   spec.summary       = %q{Anime (/ˈæn.ə.meɪ/) is a flexible yet lightweight JavaScript animation library.
 It works with CSS, Individual Transforms, SVG, DOM attributes and JS Objects}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/guinslym/anime_js_rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -21,4 +21,5 @@ It works with CSS, Individual Transforms, SVG, DOM attributes and JS Objects}
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rails", "> 3.1.0"
 end
