@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = AnimeJsRails::VERSION
   spec.authors       = ["Guinsly Mondesir"]
   spec.email         = ["guinslym@users.noreply.github.com"]
-  spec.summary       = %q{Adding Anime.js into your Rails app}
+  spec.summary       = %q{Makes it simple to include the anime.js library (by Guinsly Mondesir) in the Rails asset}
   spec.description   = %q{Anime (/ˈæn.ə.meɪ/) is a flexible yet lightweight JavaScript animation library.
 It works with CSS, Individual Transforms, SVG, DOM attributes and JS Objects}
   spec.homepage      = ""
