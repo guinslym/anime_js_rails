@@ -2,6 +2,24 @@
 
 Makes it simple to include the [anime.js](https://github.com/juliangarnier/anime) library in the Rails asset pipeline.
 
+
+### Animation example
+
+```javascript
+var myAnimation = anime({
+  targets: ['.blue', '.green'],
+  translateX: '13rem',
+  rotate: 180,
+  borderRadius: 8,
+  duration: 2000,
+  loop: true
+});
+```
+
+![Basic animation](https://github.com/juliangarnier/anime/examples/img/documentation/basic-anim.gif)
+
+[Live example on CodePen](http://codepen.io/juliangarnier/pen/42673ea42700509510c80dcf83d5fc22?editors=0010)
+
 ## Installation
 
 Add this line to your application's Gemfile:
