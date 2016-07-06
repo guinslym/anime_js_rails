@@ -16,7 +16,7 @@ var myAnimation = anime({
 });
 ```
 
-![Basic animation](https://github.com/juliangarnier/anime/examples/img/documentation/basic-anim.gif)
+![Basic animation](https://github.com/juliangarnier/anime/blob/master/examples/img/documentation/basic-anim.gif)
 
 [Live example on CodePen](http://codepen.io/juliangarnier/pen/42673ea42700509510c80dcf83d5fc22?editors=0010)
 
