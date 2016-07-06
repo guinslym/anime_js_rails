@@ -1,6 +1,6 @@
 # AnimeJsRails
 
-TODO: Write a gem description
+Makes it simple to include the (anime.js)[https://github.com/juliangarnier/anime] library in the Rails asset pipeline.
 
 ## Installation
 
